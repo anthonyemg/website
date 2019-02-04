@@ -1,0 +1,41 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server/server.js",
+    "watch": "webpack -d --w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyemg/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyemg/website/issues"
+  },
+  "homepage": "https://github.com/anthonyemg/website#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "less": "^3.8.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^1.0.1",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
