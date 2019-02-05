@@ -5,6 +5,20 @@ body {
   font-family: monospace;
   margin: 0px;
 
+  button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
   #app {
 
     @import './website/style.less';

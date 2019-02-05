@@ -3,6 +3,7 @@ import {
   Imstagran,
   Landing,
   Loading,
+  Menu,
   WorldFM,
   Yuotube,
 } from './components';
@@ -28,6 +29,9 @@ class Website extends Component {
 
     return (
       <div className={classNamePrefix}>
+
+        {!loading &&
+        <Menu />}
 
         {loading &&
         <Loading />}
