@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-class Landing extends Component {
+class Home extends Component {
   constructor(props) {
     super(props)
   }
 
   render() {
-    const classNamePrefix = 'landing';
+    const classNamePrefix = 'home';
   
     return (
       <div className={classNamePrefix}>
@@ -16,4 +16,4 @@ class Landing extends Component {
   }
 }
 
-export default Landing;
+export default Home;

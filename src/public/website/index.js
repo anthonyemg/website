@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
   About,
   Imstagran,
-  Landing,
+  Home,
   Loading,
   Menu,
   WorldFM,
@@ -38,7 +38,7 @@ class Website extends Component {
         <Loading />}
         
         {!loading &&
-        <Landing />}
+        <Home />}
 
         {!loading &&
         <WorldFM />}
