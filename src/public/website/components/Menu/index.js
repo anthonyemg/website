@@ -38,6 +38,13 @@ class Menu extends Component {
         >
           Yutube
         </button>
+
+        <button
+          onClick={() => this.handleOnClick('about')}
+        >
+          About
+        </button>
+
       </div>
     )
   }

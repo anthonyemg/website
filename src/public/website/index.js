@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {
+  About,
   Imstagran,
   Landing,
   Loading,
@@ -47,6 +48,9 @@ class Website extends Component {
 
         {!loading &&
         <Yuotube />}
+
+        {!loading &&
+        <About />}
 
       </div>
     )
