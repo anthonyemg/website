@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import { Landing, Loading, WorldFM } from './components';
+import {
+  Imstagran,
+  Landing,
+  Loading,
+  WorldFM,
+  Yuotube,
+} from './components';
 
 class Website extends Component {
   constructor(props) {
@@ -31,6 +37,12 @@ class Website extends Component {
 
         {!loading &&
         <WorldFM />}
+
+        {!loading &&
+        <Imstagran />}
+
+        {!loading &&
+        <Yuotube />}
 
       </div>
     )
