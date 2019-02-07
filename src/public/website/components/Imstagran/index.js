@@ -10,11 +10,16 @@ class Imstagran extends Component {
   
     return (
       <div className={classNamePrefix}>
-        <a href="http://imstagran.io/" target="_blank">Imstagran</a>
+
+        <div className={`${classNamePrefix}__header`}>
+          <a href="http://imstagran.io/" target="_blank">Imstagran</a>
+          <a href="https://github.com/anthonyemg/Imstagran" target="_blank">github</a>
+        </div>
 
         <div className={`${classNamePrefix}__imageWrapper`}>
           <img src='../assets/imstagranMock.png' />
         </div>
+
       </div>
     )
   }

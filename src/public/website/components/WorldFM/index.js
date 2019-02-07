@@ -10,11 +10,16 @@ class WorldFM extends Component {
   
     return (
       <div className={classNamePrefix}>
-        <a href="http://worldfm.io/" target="_blank">WorldFM</a>
+
+        <div className={`${classNamePrefix}__header`}>
+          <a href="http://worldfm.io/" target="_blank">WorldFM</a>
+          <a href="https://github.com/anthonyemg/WorldFM" target="_blank">github</a>
+        </div>
 
         <div className={`${classNamePrefix}__imageWrapper`}>
           <img src='../assets/worldFmMock.png' />
         </div>
+
       </div>
     )
   }

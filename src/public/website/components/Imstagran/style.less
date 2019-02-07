@@ -7,13 +7,21 @@
   box-sizing: border-box;
   border: 1px solid white;
 
-  a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.4s;
+  &__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: space-around;
 
-    &:hover {
-      color:#c7af70;
+    a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.4s;
+  
+      &:hover {
+        color:#c7af70;
+      }
     }
   }
 
