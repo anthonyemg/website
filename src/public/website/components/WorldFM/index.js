@@ -11,6 +11,10 @@ class WorldFM extends Component {
     return (
       <div className={classNamePrefix}>
         <a href="http://worldfm.io/" target="_blank" class="project-title">WorldFM</a>
+
+        <div className={`${classNamePrefix}__imageWrapper`}>
+          <img src='../assets/worldFmMock.png' />
+        </div>
       </div>
     )
   }

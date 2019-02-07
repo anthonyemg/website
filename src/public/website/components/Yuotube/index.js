@@ -11,6 +11,10 @@ class Yuotube extends Component {
     return (
       <div className={classNamePrefix}>
         <a href="https://yuotubeio.herokuapp.com/" target="_blank" class="project-title">YuoTube</a>
+
+        <div className={`${classNamePrefix}__imageWrapper`}>
+          <img src='../assets/yuoTubeMock.png' />
+        </div>
       </div>
     )
   }

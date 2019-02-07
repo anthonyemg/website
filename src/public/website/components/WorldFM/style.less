@@ -10,5 +10,25 @@
   a {
     color: white;
     text-decoration: none;
+    transition: color 0.4s;
+
+    &:hover {
+      color:#c7af70;
+    }
+  }
+
+  &__imageWrapper {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+    img {
+      transition: height 0.5s;
+      height: 200px;
+  
+      &:hover {
+        height: 220px;
+      }
+    }
   }
 }
