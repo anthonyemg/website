@@ -78,11 +78,10 @@ class Menu extends Component {
 
         <div
           className={`${classNamePrefix}__footer`}
-          // className={displayMenu ? `${classNamePrefix}__footer--expanded` : `${classNamePrefix}__footer`}
           data-display-menu={displayMenu}
         >
-          <span>github</span>
-          <span>email</span>
+          <a href="https://www.linkedin.com/in/anthonygreenheck/" target="_blank">linkedin</a>
+          <a href="https://github.com/anthonyemg" target="_blank">github</a>
         </div>
 
       </div>
