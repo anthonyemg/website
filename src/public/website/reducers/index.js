@@ -8,7 +8,7 @@ export default (state = initialState, { type, payload }) => {
   switch (type) {
     case actionTypes.RESET_STATE:
       return initialState;
-    case actionTypes.UPDATE_SELECTED_SELECTION:
+    case actionTypes.UPDATE_SELECTED_SECTION:
       return { ...state, selectedSection: payload };
     default:
       return state;

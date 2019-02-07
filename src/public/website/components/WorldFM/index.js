@@ -10,7 +10,7 @@ class WorldFM extends Component {
   
     return (
       <div className={classNamePrefix}>
-        <span>WorldFM</span>
+        <a href="http://worldfm.io/" target="_blank" class="project-title">WorldFM</a>
       </div>
     )
   }

@@ -10,7 +10,7 @@ class Yuotube extends Component {
   
     return (
       <div className={classNamePrefix}>
-        <span>Yuotube</span>
+        <a href="https://yuotubeio.herokuapp.com/" target="_blank" class="project-title">YuoTube</a>
       </div>
     )
   }

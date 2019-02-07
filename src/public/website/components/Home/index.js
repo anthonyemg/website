@@ -10,7 +10,9 @@ class Home extends Component {
   
     return (
       <div className={classNamePrefix}>
+        <span>THE PORTFOLIO OF</span>
         <span>Anthony Greenheck</span>
+        <span>WEB DEVELOPER</span>
       </div>
     )
   }

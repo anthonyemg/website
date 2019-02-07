@@ -10,7 +10,7 @@ class Imstagran extends Component {
   
     return (
       <div className={classNamePrefix}>
-        <span>Imstagran</span>
+        <a href="http://imstagran.io/" target="_blank" class="project-title">Imstagran</a>
       </div>
     )
   }

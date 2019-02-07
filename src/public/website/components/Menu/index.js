@@ -39,7 +39,7 @@ class Menu extends Component {
         <button
           className={`${classNamePrefix}__section`}
           data-display-menu={displayMenu}
-          onClick={() => this.handleOnClick('landing')}
+          onClick={() => this.handleOnClick('home')}
         >
           Home
         </button>
@@ -75,6 +75,15 @@ class Menu extends Component {
         >
           About
         </button>
+
+        <div
+          className={`${classNamePrefix}__footer`}
+          // className={displayMenu ? `${classNamePrefix}__footer--expanded` : `${classNamePrefix}__footer`}
+          data-display-menu={displayMenu}
+        >
+          <span>github</span>
+          <span>email</span>
+        </div>
 
       </div>
     )
