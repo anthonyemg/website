@@ -62,7 +62,7 @@ class ContactForm extends Component {
       <div className={classNamePrefix}>
 
         <div className={`${classNamePrefix}__header`}>
-            <span>Contact form</span>
+            <span>Contact me</span>
         </div>
 
         <form method="post" role="form" onSubmit={(e) => this.handleOnSubmit(e)}>

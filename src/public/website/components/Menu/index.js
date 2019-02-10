@@ -76,6 +76,15 @@ class Menu extends Component {
           About
         </button>
 
+        <button
+          className={`${classNamePrefix}__section`}
+          data-display-menu={displayMenu}
+          onClick={() => this.handleOnClick('contact-form')}
+        >
+          Contact
+        </button>
+
+
         <div
           className={`${classNamePrefix}__footer`}
           data-display-menu={displayMenu}
