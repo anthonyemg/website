@@ -1,15 +1,17 @@
-import About from './About';
-import Imstagran from './Imstagran';
+import About from './about';
+import ContactForm from './contact-form';
 import Home from './home';
-import Loading from './Loading';
-import Menu from './Menu';
-import WorldFM from './WorldFM';
-import Yuotube from './Yuotube';
+import Imstagran from './imstagran';
+import Loading from './loading';
+import Menu from './menu';
+import WorldFM from './world-fm';
+import Yuotube from './yuotube';
 
 export {
   About,
-  Imstagran,
+  ContactForm,
   Home,
+  Imstagran,
   Loading,
   Menu,
   WorldFM,

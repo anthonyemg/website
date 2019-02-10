@@ -7,6 +7,7 @@ import {
   Menu,
   WorldFM,
   Yuotube,
+  ContactForm,
 } from './components';
 
 class Website extends Component {
@@ -51,6 +52,9 @@ class Website extends Component {
 
         {!loading &&
         <About />}
+
+        {!loading &&
+        <ContactForm />}
 
       </div>
     )

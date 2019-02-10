@@ -65,7 +65,7 @@ class Menu extends Component {
           data-display-menu={displayMenu}
           onClick={() => this.handleOnClick('yuotube')}
         >
-          Yutube
+          Yuotube
         </button>
 
         <button
