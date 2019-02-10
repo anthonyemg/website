@@ -28,13 +28,12 @@ class Menu extends Component {
         data-display-menu={displayMenu}
       >
 
-        <button
-          className={`${classNamePrefix}__button`}
-          data-display-menu={displayMenu}
+        <div
+          className={`${displayMenu ? 'menu-button-open' : ''} menu-button`}
           onClick={() => this.toggleDisplayMenu()}
         >
-          X
-        </button>
+          <span></span>
+        </div>
 
         <button
           className={`${classNamePrefix}__section`}
