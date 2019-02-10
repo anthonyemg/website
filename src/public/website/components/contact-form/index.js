@@ -55,7 +55,7 @@ class ContactForm extends Component {
   } 
 
   render() {
-    const { displayMessage } = this.state;
+    const { displayMessage, message } = this.state;
     const classNamePrefix = 'contact-form';
 
     return (
@@ -101,7 +101,7 @@ class ContactForm extends Component {
         <div className={`${classNamePrefix}__footer`}>
           {displayMessage &&
           <span className={`${classNamePrefix}__successMessage`}>
-            {this.state.message}
+            {message}
           </span>}
         </div>
 
