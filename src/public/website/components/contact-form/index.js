@@ -18,7 +18,7 @@ class ContactForm extends Component {
 
     this.setState({
       displayMessage: true,
-      message: 'Processing.',
+      message: 'Processing..',
     });
 
     this.handleContactFormFetch();

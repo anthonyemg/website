@@ -8,26 +8,30 @@
   border: 1px solid white;
   flex-direction: column;
 
+  .text-container {
+    margin: 1em 0;
+    text-align: center;
+  }
+
+  .text {
+    display: inline-block;
+    font-size: 1.5em;
+  }
+
+  .test3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: space-around;
+    justify-content: center;
+    align-items: center;
+  }
+
   span {
     transition: letter-spacing 0.4s ease-in;
-
-
-    &:nth-child(1) {
-      letter-spacing: 4px;
-    }
-
-    &:nth-child(2) {
-      font-size: 28px;
-      margin: 20px 0px;
-    }
-
-    &:nth-child(3) {
-      letter-spacing: 4px;
-
-    }
+    letter-spacing: 8px;
 
     &[data-mounted="true"] {
-      letter-spacing: 1px;
+      letter-spacing: 4px;
 
     }
   }

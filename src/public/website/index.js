@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 import {
   About,
   Imstagran,
@@ -30,33 +32,37 @@ class Website extends Component {
     const classNamePrefix = "website";
 
     return (
-      <div className={classNamePrefix}>
+      <ParallaxProvider>
 
-        {!loading &&
-        <Menu />}
+        <div className={classNamePrefix}>
 
-        {loading &&
-        <Loading />}
-        
-        {!loading &&
-        <Home />}
+          {!loading &&
+          <Menu />}
 
-        {!loading &&
-        <WorldFM />}
+          {loading &&
+          <Loading />}
+          
+          {!loading &&
+          <Home />}
 
-        {!loading &&
-        <Imstagran />}
+          {!loading &&
+          <WorldFM />}
 
-        {!loading &&
-        <Yuotube />}
+          {!loading &&
+          <Imstagran />}
 
-        {!loading &&
-        <About />}
+          {!loading &&
+          <Yuotube />}
 
-        {!loading &&
-        <ContactForm />}
+          {!loading &&
+          <About />}
 
-      </div>
+          {!loading &&
+          <ContactForm />}
+
+        </div>
+
+      </ParallaxProvider>
     )
   }
 }
